@@ -9,10 +9,10 @@ if (basename($_SERVER['SCRIPT_FILENAME']) === basename(__FILE__)) {
     die('Access denied.');
 }
 
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'portfolio_db');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_HOST', 'sql100.infinityfree.com');
+define('DB_NAME', 'if0_41244839_portfolio_db');
+define('DB_USER', 'if0_41244839');
+define('DB_PASS', 'xIJxgmANLm');
 
 function getDB() {
     static $pdo = null;
